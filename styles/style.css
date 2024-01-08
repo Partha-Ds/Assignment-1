@@ -1,0 +1,38 @@
+/* shared styles */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header related styles */
+
+.header-container {
+    background: url('../images/Banner\ Image.png');
+    margin: 50px 140px 0px 140px;
+    border-radius: 15px;
+    width: 1600px;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* padding: 25px 85px 25px 85px; */
+}
+
+.header-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 35px;
+    padding: 175px 530px 0px 530px;
+    margin-bottom: 15px;
+}
+
+.header-heading {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 75px;
+    font-weight: 900;
+    padding: 0px 345px 175px 345px;
+}
+
