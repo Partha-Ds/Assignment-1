@@ -256,16 +256,15 @@
 
 .img-grp{
     display: flex;
-    justify-content: space-between;
-    margin: 0px 160px 0px 140px;
     background-image: url('../images/Rectangle\ 1.png'), url('../images/Rectangle\ 2.png');
-    background-repeat: no-repeat;
-    background-position: top right , bottom;
+    background-repeat: no-repeat, repeat-x;
+    background-position: top right, bottom right;
 }
 
-.grp-44{
+#grp44{
     position: absolute;
-    padding: 70px 735px;
+    padding: 80px 0px 0px 1030px;
+    height: 300px;
 }
 
 .portfolio-container{
@@ -294,12 +293,15 @@ font-family: Inter;
 font-size: 20px;
 font-weight: 400;
 width: 895px;
+padding-bottom: 50px;
 }
 
 .div-btn{
-    border: none;
-    padding: 50px 95px 50px 0px;
+    padding: 0px 56px 56px 0px;
+    border: none;    
+    
     background: none;
+    
 }
 
 .div-btn:hover{
@@ -360,5 +362,6 @@ background: #ff0000;
 border: none;
 border-radius: 0px 50px 50px 0px;
 }
+
 
 
