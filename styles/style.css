@@ -254,61 +254,62 @@
     padding: 0px 125px 65px 125px;
 }
 
-.img-grp{
+.img-grp {
     display: flex;
     background-image: url('../images/Rectangle\ 1.png'), url('../images/Rectangle\ 2.png');
     background-repeat: no-repeat, repeat-x;
     background-position: top right, bottom right;
 }
 
-#grp44{
+#grp44 {
     position: absolute;
     padding: 80px 0px 0px 1030px;
     height: 300px;
 }
 
-.portfolio-container{
+.portfolio-container {
     margin: 0px 140px 120px 140px;
 }
 
-.gift{
+.gift {
     color: #ff0000;
-font-family: Inter;
-font-size: 25px;
-font-weight: 500;
-padding-bottom: 15px;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 15px;
 }
 
-.portfolio{
+.portfolio {
     color: #070211;
-font-family: Merriweather;
-font-size: 50px;
-font-weight: 900;
-padding-bottom: 25px;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-weight: 900;
+    padding-bottom: 25px;
 }
 
-.portfolio-details{
+.portfolio-details {
     color: #595169;
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-width: 895px;
-padding-bottom: 50px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    width: 895px;
+    padding-bottom: 50px;
 }
 
-.div-btn{
+.div-btn {
     padding: 0px 56px 56px 0px;
-    border: none;    
-    
+    border: none;
+
     background: none;
-    
+
 }
 
-.div-btn:hover{
-    cursor: pointer;;
+.div-btn:hover {
+    cursor: pointer;
+    ;
 }
 
-.sign-in{
+.sign-in {
     margin: 0px 140px 120px 140px;
     text-align: center;
     background: #f1ecec;
@@ -316,52 +317,106 @@ padding-bottom: 50px;
     height: 615px;
 }
 
-.sign-in > img{
+.sign-in>img {
     padding: 80px 0px 40px 0px;
 }
 
-.sign-in > h2{
+.sign-in>h2 {
     color: #070211;
-font-family: Merriweather;
-font-size: 50px;
-font-weight: 900;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-weight: 900;
 }
 
-.sign-in > p{
+.sign-in>p {
     color: #595169;
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-padding: 25px 215px 50px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 25px 215px 50px;
 }
 
-.sign-in > form{
+.sign-in>form {
     background-color: #ffffff;
     text-align: center;
     margin: 0px 554px;
     border-radius: 50px;
-} 
+}
 
-.email{
+.email {
     color: #9d8fb9;
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-padding: 25px 0px 25px 30px;
-border: none;
-border-radius: 50px 0px 0px 50px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 25px 0px 25px 30px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
 }
 
-.sub-btn{
+.sub-btn {
     color: #ffffff;
-font-family: Inter;
-font-size: 20px;
-font-weight: 600;
-padding: 25px 55px;
-background: #ff0000;
-border: none;
-border-radius: 0px 50px 50px 0px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 25px 55px;
+    background: #ff0000;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
 }
 
+/* footer styles */
+footer {
+    background: #070211;
+    width: 100%;
+    height: 610px;
+}
 
+.footer {
+    margin: 120px 140px;
+}
 
+.address-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0px 50px 0px;
+}
+
+.footer-address,
+.footer-contact {
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.social-links a {
+    margin-right: 25px;
+}
+
+.social-links {
+    padding: 50px 620px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.copyright,
+.unsub-btn {
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.unsub-btn {
+    background: none;
+    border: none;
+}
+
+.unsub-btn:hover {
+    color: darkcyan;
+}
