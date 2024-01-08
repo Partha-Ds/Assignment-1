@@ -1,5 +1,5 @@
 /* shared styles */
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -15,7 +15,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* padding: 25px 85px 25px 85px; */
 }
 
 .header-title {
@@ -24,7 +23,7 @@
     font-family: Merriweather;
     font-size: 35px;
     padding: 175px 530px 0px 530px;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 .header-heading {
@@ -38,29 +37,121 @@
 
 /* main related styles */
 
-.holiday-deals{
+.holiday-deals {
     margin: 120px 400px auto 420px;
 }
-.sell{
+
+.sell {
     text-align: center;
     font-family: inter;
 }
-.discount{
+
+.discount {
     color: #ff0000;
     font-size: 90px;
     font-weight: 700;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
-.catchphrase{
+
+.catchphrase {
     color: #ff0000;
     font-size: 25px;
     font-weight: 500;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 
-.categories{
+.categories {
     color: #070211;
     font-size: 50px;
     font-weight: 700;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.party {
+    background: url('../images/Vectorrr.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 120px 140px 120px 140px;
+    width: 1600px;
+    height: 700px;
+    border-radius: 15px;
+}
+
+.party-container {
+    display: flex;
+}
+
+.invitation-title {
+    color: #ffffff;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    padding: 125px 95px 50px 125px;
+}
+
+.invitation-content {
+    color: #ece8e8;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 125px 60px 125px;
+}
+
+.btn {
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0px 0px 145px 160px;
+    background: none;
+    border: none;
+}
+
+.btn:hover {
+    color: darkcyan
+}
+
+.year-2024 {
+    padding: 130px 140px 100px 45px;
+}
+
+.address {
+    background: #f1e9e9;
+    margin: 0px 140px 120px 140px;
+    border-radius: 15px;
+    width: 1600px;
+    height: 460px;
+}
+
+.address-container {
+    text-align: center;
+    padding: 100px 385px 110px;
+}
+
+
+.address-info {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.info-title {
+    color: #ff0000;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+}
+.btn-one{
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 32px;
+    background: #ff0000;
+    border: none;
+    margin-top: 50px;
+    border-radius: 10px;
 }
