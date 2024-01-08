@@ -8,7 +8,7 @@
 
 .header-container {
     background: url('../images/Banner\ Image.png');
-    margin: 50px 140px 0px 140px;
+    margin: 50px 140px auto 140px;
     border-radius: 15px;
     width: 1600px;
     height: 750px;
@@ -19,7 +19,7 @@
 }
 
 .header-title {
-    color: #FFF;
+    color: #ffffff;
     text-align: center;
     font-family: Merriweather;
     font-size: 35px;
@@ -28,7 +28,7 @@
 }
 
 .header-heading {
-    color: #FFF;
+    color: #ffffff;
     text-align: center;
     font-family: Merriweather;
     font-size: 75px;
@@ -36,3 +36,31 @@
     padding: 0px 345px 175px 345px;
 }
 
+/* main related styles */
+
+.holiday-deals{
+    margin: 120px 400px auto 420px;
+}
+.sell{
+    text-align: center;
+    font-family: inter;
+}
+.discount{
+    color: #ff0000;
+    font-size: 90px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.catchphrase{
+    color: #ff0000;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.categories{
+    color: #070211;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
