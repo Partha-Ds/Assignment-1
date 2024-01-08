@@ -208,11 +208,157 @@
     padding-bottom: 15px;
     margin-top: 115px;
 }
-.text{
+
+.text {
     color: #7f7e83;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    width: 275px;
+    padding-bottom: 45px;
+}
+
+.holiday-sale {
+    margin: 0px 140px 110px 140px;
+}
+
+.discount-two-container {
+    text-align: center;
+}
+
+.function {
+    color: #070211;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.red-black {
+    color: #ff0000;
+    font-family: Merriweather;
+    font-size: 70px;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+.sale-fifty {
+    color: #070211;
+}
+
+.discount-two {
+    color: #7f7e83;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0px 125px 65px 125px;
+}
+
+.img-grp{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 160px 0px 140px;
+    background-image: url('../images/Rectangle\ 1.png'), url('../images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: top right , bottom;
+}
+
+.grp-44{
+    position: absolute;
+    padding: 70px 735px;
+}
+
+.portfolio-container{
+    margin: 0px 140px 120px 140px;
+}
+
+.gift{
+    color: #ff0000;
+font-family: Inter;
+font-size: 25px;
+font-weight: 500;
+padding-bottom: 15px;
+}
+
+.portfolio{
+    color: #070211;
+font-family: Merriweather;
+font-size: 50px;
+font-weight: 900;
+padding-bottom: 25px;
+}
+
+.portfolio-details{
+    color: #595169;
 font-family: Inter;
 font-size: 20px;
 font-weight: 400;
-width: 275px;
-padding-bottom: 45px;
+width: 895px;
 }
+
+.div-btn{
+    border: none;
+    padding: 50px 95px 50px 0px;
+    background: none;
+}
+
+.div-btn:hover{
+    cursor: pointer;;
+}
+
+.sign-in{
+    margin: 0px 140px 120px 140px;
+    text-align: center;
+    background: #f1ecec;
+    border-radius: 15px;
+    height: 615px;
+}
+
+.sign-in > img{
+    padding: 80px 0px 40px 0px;
+}
+
+.sign-in > h2{
+    color: #070211;
+font-family: Merriweather;
+font-size: 50px;
+font-weight: 900;
+}
+
+.sign-in > p{
+    color: #595169;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+padding: 25px 215px 50px;
+}
+
+.sign-in > form{
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0px 554px;
+    border-radius: 50px;
+} 
+
+.email{
+    color: #9d8fb9;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+padding: 25px 0px 25px 30px;
+border: none;
+border-radius: 50px 0px 0px 50px;
+}
+
+.sub-btn{
+    color: #ffffff;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+padding: 25px 55px;
+background: #ff0000;
+border: none;
+border-radius: 0px 50px 50px 0px;
+}
+
+
